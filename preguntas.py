@@ -62,7 +62,7 @@ def pregunta_03():
     Especificación del pipeline y entrenamiento
     -------------------------------------------------------------------------------------
     """
-    pipeline = ____(
+    pipeline = Pipeline(
         steps=[
             # OneHotEncoder a variables categóricas, 
             (
